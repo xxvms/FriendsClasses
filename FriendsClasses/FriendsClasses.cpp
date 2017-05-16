@@ -14,9 +14,12 @@ Friends classes
 int main()
 {
 	B objectB;
+	A objectA;
+
+	objectA.setSecretValue(objectB, 600);
 
 	std::cout << objectB.getSecretValue() << std::endl;
-
+	
 	system("pause");
 	return 0;
 }
